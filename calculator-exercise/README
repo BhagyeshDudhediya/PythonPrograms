@@ -1,0 +1,2 @@
+menu.py - file to be executed, it just displays the options and takes input from user
+ops.py - It contains classes simple calculator and scientific calculator which does calculations based on input passed to menu.py
