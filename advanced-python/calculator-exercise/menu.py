@@ -14,8 +14,13 @@ while True:
         if operation == '5':
             ans = print_menu()
             continue
-        val1 = int(raw_input("Enter the first value: "))
-        val2 = int(raw_input("Enter the second value: "))
+        try:
+            val1 = int(raw_input("Enter the first value: "))
+            val2 = int(raw_input("Enter the second value: "))
+        except ValueError:
+            print "Enter valid integer value"
+            continue
+
         calculator = ops.Simple_Calculator(val1, val2)
         if operation == '1':
             print "Value of Addition is: " + str(calculator.add())

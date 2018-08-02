@@ -1,6 +1,7 @@
 import math
 
 class Simple_Calculator:
+    """Calculator to perform basic mathematical operations"""
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -14,6 +15,7 @@ class Simple_Calculator:
         return self.a/self.b
 
 class Scientific_Calculator:
+    """Calculator to perform advanced mathematical operations"""
     def __init__(self, a, b=0):
         self.a = a
         self.b = b
