@@ -1,0 +1,5 @@
+2018-10-30 11:52:45,463:DEBUG:root:3836:logging_in_python.py:debug messages
+2018-10-30 11:52:45,463:INFO:root:3836:logging_in_python.py:confirmation note
+2018-10-30 11:52:45,463:WARNING:root:3836:logging_in_python.py:warning message
+2018-10-30 11:52:45,463:ERROR:root:3836:logging_in_python.py:an error information
+2018-10-30 11:52:45,463:CRITICAL:root:3836:logging_in_python.py:a critical message
