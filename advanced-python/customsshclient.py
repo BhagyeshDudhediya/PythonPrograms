@@ -27,6 +27,6 @@ class CustomSSHClient:
         self.ssh.close()
 
 if __name__ == '__main__':
-    ssh = CustomSSHClient('perf-c856.datadomain.com', 22, 'ptc', 'ABC1234')
+    ssh = CustomSSHClient('localhost', 22, 'training', 'training')
     op = ssh.check_output('ls')
     print(op)

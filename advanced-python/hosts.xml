@@ -1,28 +1,28 @@
 <?xml version="1.0" ?>
 <host-info>
-    <host hostname="perf-c856.datadomain.com" port="22">
-        <username>ptc</username>
-        <password>ABC1234</password>
+    <host hostname="localhost" port="22">
+        <username>training</username>
+        <password>training</password>
         <job>lscpu</job>
     </host>
-    <host hostname="perf-c856.datadomain.com" port="22">
-        <username>ptc</username>
-        <password>ABC1234</password>
+    <host hostname="localhost" port="22">
+        <username>training</username>
+        <password>training</password>
         <job>free -m</job>
     </host>
-    <host hostname="perf-c856.datadomain.com" port="22">
-        <username>ptc</username>
-        <password>ABC1234</password>
+    <host hostname="localhost" port="22">
+        <username>training</username>
+        <password>training</password>
         <job>df -h</job>
     </host>
-    <host hostname="perf-c856.datadomain.com" port="22">
-        <username>ptc</username>
-        <password>ABC1234</password>
+    <host hostname="localhost" port="22">
+        <username>training</username>
+        <password>training</password>
         <job>ls</job>
     </host>
-    <host hostname="perf-c856.datadomain.com" port="22">
-        <username>ptc</username>
-        <password>ABC1234</password>
+    <host hostname="localhost" port="22">
+        <username>training</username>
+        <password>training</password>
         <job>cal</job>
     </host>
 </host-info>
